@@ -6,8 +6,9 @@
 <title>Klare Luft</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#1C2128">
+
+  /* --- Modul 2 fügt hier den kompletten CSS-Code ein --- */
 <style>
-/* --- Modul 2 fügt hier den kompletten CSS-Code ein --- */
 :root{
   --bg-deep:#1C2128; --bg-panel:#242A32; --bg-panel-2:#2C333C;
   --smoke:#4A5560; --smoke-light:#6B7684; --clear-sky:#5FA8D3;
@@ -195,9 +196,9 @@ button{ font-family:var(--font-body); cursor:pointer; border:none; }
     </div>
   </div>
 </div>
-
-<script>
+  
 /* --- Modul 3 fügt hier den kompletten JavaScript-Code ein --- */
+<script>
 localStorage.setItem('config', JSON.stringify(objekt));   // speichern
    const objekt = JSON.parse(localStorage.getItem('config')); // laden
 
